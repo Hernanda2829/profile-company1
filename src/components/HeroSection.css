@@ -1,0 +1,85 @@
+/* Hero Section Container */
+.hero-section {
+    display: flex;
+    align-items: center; /* Vertikal sejajar */
+    justify-content: space-between; /* Teks di kiri, gambar di kanan */
+    padding: 50px;
+    background-color: #ffffff; /* Background putih */
+    height: auto;
+    min-height: 600px; /* Tinggi minimal */
+    gap: 20px; /* Jarak antar elemen */
+  }
+  
+  /* Content Styling */
+  .hero-content {
+    flex: 1; /* Ruang teks */
+    padding-right: 10px; /* Jarak dengan gambar */
+  }
+  
+  .hero-content h1 {
+    font-size: 78px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222; /* Warna teks */
+    line-height: 1.2; /* Spasi antar baris */
+  }
+  
+  .hero-content h1::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 4px;
+    background-color: #000; /* Garis bawah hitam */
+    margin-top: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Button Styling */
+  .hero-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #bada55; /* Warna hijau muda */
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-button:hover {
+    background-color: #90c94e; /* Warna hijau lebih gelap */
+  }
+  
+  .hero-button::after {
+    content: '→'; /* Panah */
+    margin-left: 10px;
+  }
+  
+  /* Image Styling */
+  .hero-image {
+    flex: 1; /* Gambar menggunakan ruang yang tersisa */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Sudut melengkung */
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
