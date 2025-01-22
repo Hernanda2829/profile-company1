@@ -17,7 +17,7 @@ In the project directory, you can run:
 
 ![image](https://github.com/user-attachments/assets/e9bffe7f-cc59-4a86-a49d-715dee994be7)
 
-
+[![Tonton videonya](https://github.com/Hernanda2829/profile-company1/blob/master/public/React%20App%20-%20Google%20Chrome%202025-01-22%2011-03-52.mp4)
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
